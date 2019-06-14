@@ -1,0 +1,7 @@
+#include<iostream>
+#include "AUDS.h"
+int main(){
+	AUDS<char>* test = new AUDS<char>();
+	test.push('a');
+return 0;
+}
